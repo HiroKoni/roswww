@@ -18,3 +18,5 @@
 ## リスト
 1. [概要（このページ）](readme.md)
 2. [セットアップ](setup.md)
+3. [パッケージへの導入](integration.md)
+4. [Pub/Subしよう](pubsub.md)
