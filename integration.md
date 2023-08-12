@@ -8,7 +8,7 @@
 
 `launch`ファイルを作成し、`roswww`と`rosbridge_server`を起動させるよう設定します。既存のlaunchファイルに追記してもいいですし、新しくlaunchファイルを作成してもいいです。
 ```xml
-<arg name="port" default="8085"/> <!-- Apacheのデフォルトポートは避ける（不通は80） -->
+<arg name="port" default="8085"/> <!-- Apacheのデフォルトポートは避ける（普通は80） -->
 <arg name="webpath" default="www"/> <!-- ウェブサーバーのルートディレクトリにするフォルダへの相対パス -->
 <arg name="use_roswww" default="true" />
 
