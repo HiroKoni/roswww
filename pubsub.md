@@ -19,3 +19,10 @@ HTMLの`<head>`タグ内に、以下のように記述します。
 
 あなたのプログラムは、`script.js`に書き込みます。
 では、[公式ドキュメント](https://wiki.ros.org/roslibjs/Tutorials/BasicRosFunctionality)を参考に、ブラウザから適当なTopicをSubscribe, Publishしてみましょう。
+
+
+## 参考サイト
+- https://docs.ros.org/en/indigo/api/roswww/html/
+- https://robotwebtools.github.io/roslibjs
+
+[前（パッケージへの導入）](integration.md)

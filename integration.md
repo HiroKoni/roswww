@@ -26,3 +26,11 @@
 `roslaunch`した後、`http://localhost:8085/%YOUR_PACKAGE_NAME%` にアクセスしてみましょう。`www/index.html`の内容が表示されているはずです。
 
 このサンプルは、静的なコンテンツでしかありませんが、`roslibjs`を使うことで、topic通信など、ROSの機能が使えます。
+
+
+## 参考サイト
+- https://docs.ros.org/en/indigo/api/roswww/html/
+- https://robotwebtools.github.io/roslibjs
+
+[前（セットアップ）](setup.md)
+　[次（Pub/Subしよう）](pubsub.md)
