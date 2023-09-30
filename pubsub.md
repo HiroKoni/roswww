@@ -24,7 +24,7 @@ HTMLの`<head>`タグ内に、以下のように記述します。これによ�
 `rosmaster`との接続などは、前述の公式ドキュメントを参照してください。ここでは、トピック周りの記述についてのみ説明します。
 `roscpp`との相違点として特筆すべきこととして、`roslibjs`では、publisherとsubscriberを同じ`Topic`構造体で扱うことです。ですから、以下のようなコードで、`/cmd_vel`というTopicに対して、PublishとSubscribeを同時に行うことができます。
 ```js
-var cmd_vel = new ROSLIB.Topic({
+const cmd_vel = new ROSLIB.Topic({
 ros : ros,
 name : '/cmd_vel',
 messageType : 'std_msgs/Int32'
