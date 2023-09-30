@@ -34,7 +34,7 @@ messageType : 'std_msgs/Int32'
 ### Publish
 ```js
 const vel = new ROSLIB.Message({
-            data: 50
+    data: 50
 })
 cmd_vel.publish(angle);
 ```
